@@ -1,0 +1,20 @@
+Django>=5.0,<7.0
+djangorestframework>=3.15
+djangorestframework-simplejwt>=5.3
+django-cors-headers>=4.3
+python-dotenv>=1.0
+psycopg[binary]>=3.1
+
+# Document processing
+pymupdf>=1.24
+python-docx>=1.1
+
+# GenAI
+langchain-core>=0.3
+langchain-text-splitters>=0.3
+langchain-openai>=0.2
+langchain-google-genai>=2.0
+sentence-transformers>=3.0
+
+# Vector DB
+chromadb>=0.5
